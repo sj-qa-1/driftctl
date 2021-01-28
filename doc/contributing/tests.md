@@ -134,6 +134,7 @@ Recommended way to run acc tests is to use two distinct credentials:
 one for terraform related actions, and one for driftctl scan.
 
 You can override environment variables passed to terraform operations by adding `ACC_` prefix on env variables.
+Environment used in `PreCheck()` is using using overriden env too as it is common to perform mutations in that place.
 
 #### AWS
 
