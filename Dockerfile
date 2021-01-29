@@ -1,5 +1,5 @@
 FROM golang:1.15.2 AS builder
-
+# COMMENT 
 ARG OS="linux"
 ARG ARCH="amd64"
 
